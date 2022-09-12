@@ -33,6 +33,8 @@ group :test do
   gem 'rspec-core'
   gem 'rspec-rails'
   gem 'simplecov'
+  gem "simplecov-rcov"
+  gem "simplecov-json"
   gem 'webmock'
   gem 'poltergeist'
   gem 'timecop'

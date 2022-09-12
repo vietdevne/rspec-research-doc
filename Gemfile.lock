@@ -126,6 +126,7 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
+    json (2.6.2)
     launchy (2.5.0)
       addressable (~> 2.7)
     loofah (2.18.0)
@@ -231,6 +232,11 @@ GEM
       simplecov-html (~> 0.11)
       simplecov_json_formatter (~> 0.1)
     simplecov-html (0.12.3)
+    simplecov-json (0.2.3)
+      json
+      simplecov
+    simplecov-rcov (0.3.1)
+      simplecov (>= 0.4.1)
     simplecov_json_formatter (0.1.4)
     sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
@@ -294,6 +300,8 @@ DEPENDENCIES
   rspec-rails
   rspec_junit_formatter
   simplecov
+  simplecov-json
+  simplecov-rcov
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
