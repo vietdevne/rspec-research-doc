@@ -1,6 +1,5 @@
 ### Các chủ đề:
 - Example groups
-- Command line
 - Hooks
 - Subject
 - Helper methods
