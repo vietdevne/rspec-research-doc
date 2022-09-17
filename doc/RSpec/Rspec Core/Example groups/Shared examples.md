@@ -56,7 +56,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/collection_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/collection_spec.rb -fdoc
 
 Array
   behaves like a collection
@@ -112,7 +112,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_example_group_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/shared_example_group_spec.rb -fdoc
 
 Array
   behaves like a collection object
@@ -151,7 +151,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_example_group_params_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/shared_example_group_params_spec.rb -fdoc
 
 Array with 3 items
   it should behave like a measurable object
@@ -189,7 +189,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/alias_shared_example_group_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/alias_shared_example_group_spec.rb -fdoc
 
 String
   has behavior: sortability
@@ -216,7 +216,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/context_specific_examples_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/context_specific_examples_spec.rb -fdoc
 
 shared examples
   per context
@@ -242,7 +242,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/con_context_specific_examples_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/con_context_specific_examples_spec.rb -fdoc
 
 shared examples
   per context
@@ -271,9 +271,9 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/isolated_shared_examples_spec.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_examples/isolated_shared_examples_spec.rb -fdoc
 
-An error occurred while loading ./spec/isolated_shared_examples_spec.rb.
+An error occurred while loading ./spec/shared_examples/isolated_shared_examples_spec.rb.
 Failure/Error: it_behaves_like "shared examples are isolated"
 
 ArgumentError:

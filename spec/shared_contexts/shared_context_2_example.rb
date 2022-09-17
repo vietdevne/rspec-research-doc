@@ -1,4 +1,4 @@
-require "shared_stuff.rb"
+require "shared_contexts/shared_stuff.rb"
 
 RSpec.describe "including shared context using 'include_context' and a block" do
   include_context "shared stuff" do

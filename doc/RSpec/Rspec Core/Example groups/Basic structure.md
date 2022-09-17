@@ -15,9 +15,9 @@ RSpec.describe "something" do
   end
 end
 ```
-Khi chạy `rspec spec/sample_spec.rb -fdoc` kết quả như sau:
+Khi chạy `rspec spec/basic/sample_spec.rb -fdoc` kết quả như sau:
 ```
-➜  rspec-research-doc git:(main) ✗ rspec spec/sample_spec.rb -fdoc
+➜  rspec-research-doc git:(main) ✗ rspec spec/basic/sample_spec.rb -fdoc
 
 something
   does something
@@ -42,7 +42,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(main) ✗ rspec spec/nested_example_groups_spec.rb -fdoc
+➜  rspec-research-doc git:(main) ✗ rspec spec/basic/nested_example_groups_spec.rb -fdoc
 
 something
   in one context

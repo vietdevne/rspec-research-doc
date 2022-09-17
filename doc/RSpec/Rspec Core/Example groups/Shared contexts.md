@@ -35,7 +35,7 @@ __- Khai báo 1 shared context và include nó với `include_context`:__
 
 Tạo file `shared_context_example.rb` như sau:
 ```
-require "./shared_stuff.rb"
+require "shared_contexts/shared_stuff.rb"
 
 RSpec.describe "group that includes a shared context using 'include_context'" do
   include_context "shared stuff"
@@ -66,7 +66,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_context_example.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_contexts/shared_context_example.rb -fdoc
 
 group that includes a shared context using 'include_context'
   has access to methods defined in shared context
@@ -83,7 +83,7 @@ __- Khai báo 1 shared context, include nó với `include_context` và extend v
 
 Tạo file `shared_context_2_example.rb` như sau:
 ```
-require "shared_stuff.rb"
+require "shared_contexts/shared_stuff.rb"
 
 RSpec.describe "including shared context using 'include_context' and a block" do
   include_context "shared stuff" do
@@ -97,7 +97,7 @@ end
 ```
 Kết quả:
 ```
-➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_context_2_example.rb -fdoc
+➜  rspec-research-doc git:(feature/rspec_core) ✗ rspec spec/shared_contexts/shared_context_2_example.rb -fdoc
 
 including shared context using 'include_context' and a block
   evaluates the block in the shared context
