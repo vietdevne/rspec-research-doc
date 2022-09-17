@@ -1,0 +1,15 @@
+### Các chủ đề:
+- Example groups
+- Hooks
+- Subject
+- Helper methods
+- Metadata
+- Filtering
+- Configuration
+- Expectation framework integration
+- Mock framework integration
+- Formatters
+- Spec files
+- Use rspec-core without rspec-mocks or rspec-expectations
+- Pending and skipped examples
+- Running specs multiple times with different runner options in the same process
